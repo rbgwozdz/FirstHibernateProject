@@ -9,7 +9,7 @@ public class HibernateTest {
 	public static void main(String[] args) {
 		UserDetails user = new UserDetails();
 		user.setId(3);
-		user.setUserName("ThirdUser");
+		user.setUserName("ThirdUsers");
 		
 		
 		SessionFactory sessionFactory = new Configuration().configure().buildSessionFactory();
