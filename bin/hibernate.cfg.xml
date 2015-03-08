@@ -53,7 +53,7 @@
 		<!-- After startup use -->
          <property name="hbm2ddl.auto">update</property>
  
-        <mapping class="com.rich.hibernate.UserDetails"/>
+        <mapping class="com.rich.dto.UserDetails"/>
 
     </session-factory>
 
